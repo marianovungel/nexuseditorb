@@ -7,7 +7,7 @@ require('./db')
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "/*",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 })
